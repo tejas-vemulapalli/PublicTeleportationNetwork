@@ -147,3 +147,4 @@ for o in notGraph:
                 #print(f"Path {i} cost {round(weight,2)}")
 
 dataFile.close()
+
