@@ -67,7 +67,7 @@ for i in graph:
         if j != i and j not in connected_nodes:
             notGraph[i].append((j, graphweights[i]))
         
-dataFile = open('/Users/vem0001/desktop/Table1.csv', 'w')
+dataFile = open('/Users/vem0001/desktop/Table2.csv', 'w')
 
 dataFile.write(f"Sequence#cost#with path#with hops#Added connection between \n")
 
@@ -98,7 +98,10 @@ for o in notGraph:
                     elif target != source:
                         places[source].append({target: ["inf", []]})
 
+
+
             allsequence = list(itertools.permutations(iterplaces))
+
 
             for i in allsequence:
                 if i[0] != start and start != '':
@@ -140,8 +143,7 @@ for o in notGraph:
                 copyroute = [copyroute[0]] + [b for a, b in zip(copyroute, copyroute[1:]) if a != b]
 
                 countNodes = len(copyroute)
-                dataFile.write(f"Sequence # {'-> '.join(i)} #cost # {round(weight,2)} # with path# {'-> '.join(copyroute)} # with hops # {countNodes} \n")
-        print(f"Sequence # {'-> '.join(i)} #cost # {round(weight,2)} # with path# {'-> '.join(copyroute)} # with hops # {countNodes} \n")                
-    #print(f"Path {i} cost {round(weight,2)}")
+                dataFile.write(f"{'-> '.join(i)} # {round(weight,2)} #  {'-> '.join(copyroute)} # {countNodes} #  {o} and {z[0]}\n")
+                #print(f"Path {i} cost {round(weight,2)}")
 
 dataFile.close()
