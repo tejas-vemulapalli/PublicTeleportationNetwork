@@ -97,7 +97,7 @@ for o in notGraph:
 
                     elif target != source:
                         places[source].append({target: ["inf", []]})
- 
+
             allsequence = list(itertools.permutations(iterplaces))
 
             for i in allsequence:
@@ -140,5 +140,8 @@ for o in notGraph:
                 copyroute = [copyroute[0]] + [b for a, b in zip(copyroute, copyroute[1:]) if a != b]
 
                 countNodes = len(copyroute)
-                dataFile.write(f"{'--> '.join(i)} # {round(
- 
+                dataFile.write(f"Sequence # {'-> '.join(i)} #cost # {round(weight,2)} # with path# {'-> '.join(copyroute)} # with hops # {countNodes} \n")
+        print(f"Sequence # {'-> '.join(i)} #cost # {round(weight,2)} # with path# {'-> '.join(copyroute)} # with hops # {countNodes} \n")                
+    #print(f"Path {i} cost {round(weight,2)}")
+
+dataFile.close()
