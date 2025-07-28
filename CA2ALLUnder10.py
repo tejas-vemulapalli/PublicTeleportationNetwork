@@ -1,4 +1,16 @@
 import itertools
+def dupremover(list):
+    list.reverse()
+    lelist = list.copy()
+    for i in list:
+        if i in lelist[1:]:
+            ind = lelist.index(i)
+            del lelist [ind]
+        else:
+            break
+    lelist.reverse()
+    return lelist
+
 def djikistri(startStation, graph):
     weights = {node: float('inf') for node in graph}
     previous = {node: None for node in graph}
@@ -59,7 +71,9 @@ for source in graph:
 
         elif target != source:
             places[source].append({target: ["inf", []]})
- 
+
+
+
 allsequence = list(itertools.permutations(iterplaces))
 
 dataFile = open('/Users/vem0001/desktop/Tables.csv', 'w')
@@ -97,12 +111,13 @@ for i in allsequence:
         for i1 in route[1:]:
             for j in i1:
                 copyroute.append(j)
-    
+   
     copyroute = [copyroute[0]] + [b for a, b in zip(copyroute, copyroute[1:]) if a != b]
     
             
     countNodes = len(copyroute)
-    dataFile.write(f"Sequence # {'--> '.join(i)} #cost # {round(weight,2)} # with path# {'--> '.join(copyroute)} # with hops # {countNodes} \n")
+    dataFile.write(f"Sequence # {'-> '.join(i)} #cost # {round(weight,2)} # with path# {'-> '.join(dupremover(copyroute))} # with hops # {countNodes} \n")
     #print(f"Path {i} cost {round(weight,2)}")
 
 dataFile.close()
+
