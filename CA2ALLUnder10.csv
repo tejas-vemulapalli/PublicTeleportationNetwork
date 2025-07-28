@@ -11,18 +11,6 @@ Sequence	Cost	Path	Hops
  CA--> NC--> IP--> EL--> WC--> ST--> NNP 	10.98	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	9
  CA--> NC--> IP--> EL--> WC--> NNP--> ST 	10.98	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	9
  CA--> NC--> IP--> EL--> ST--> NNP--> WC 	10.98	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	9
- CA--> ST--> NNP--> WC--> EL--> IP--> NC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> ST--> NNP--> WC--> EL--> NC--> IP 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> ST--> NNP--> EL--> NC--> IP--> WC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> ST--> NNP--> EL--> WC--> IP--> NC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> ST--> NNP--> EL--> WC--> NC--> IP 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> NNP--> WC--> EL--> NC--> IP--> ST 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> NNP--> ST--> WC--> EL--> IP--> NC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> NNP--> ST--> WC--> EL--> NC--> IP 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> NNP--> ST--> EL--> NC--> IP--> WC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> NNP--> ST--> EL--> WC--> IP--> NC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> NNP--> ST--> EL--> WC--> NC--> IP 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
- CA--> NNP--> EL--> WC--> NC--> IP--> ST 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
  CA--> EL--> IP--> NC--> WC--> ST--> NNP 	10.98	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	9
  CA--> EL--> IP--> NC--> WC--> NNP--> ST 	10.98	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	9
  CA--> EL--> IP--> NC--> ST--> NNP--> WC 	10.98	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	9
@@ -35,6 +23,18 @@ Sequence	Cost	Path	Hops
  CA--> EL--> WC--> IP--> ST--> NNP--> NC 	10.98	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	9
  CA--> EL--> WC--> NC--> IP--> ST--> NNP 	10.98	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	9
  CA--> EL--> WC--> NC--> IP--> NNP--> ST 	10.98	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	9
+ CA--> ST--> NNP--> WC--> EL--> IP--> NC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> ST--> NNP--> WC--> EL--> NC--> IP 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> ST--> NNP--> EL--> NC--> IP--> WC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> ST--> NNP--> EL--> WC--> IP--> NC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> ST--> NNP--> EL--> WC--> NC--> IP 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> NNP--> WC--> EL--> NC--> IP--> ST 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> NNP--> ST--> WC--> EL--> IP--> NC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> NNP--> ST--> WC--> EL--> NC--> IP 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> NNP--> ST--> EL--> NC--> IP--> WC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> NNP--> ST--> EL--> WC--> IP--> NC 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> NNP--> ST--> EL--> WC--> NC--> IP 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
+ CA--> NNP--> EL--> WC--> NC--> IP--> ST 	12.13	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	9
  CA--> EL--> WC--> ST--> NNP--> IP--> NC 	12.13	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	9
  CA--> EL--> WC--> ST--> NNP--> NC--> IP 	12.13	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	9
  CA--> EL--> WC--> NNP--> NC--> IP--> ST 	12.13	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	9
@@ -47,6 +47,24 @@ Sequence	Cost	Path	Hops
  CA--> EL--> NNP--> ST--> NC--> IP--> WC 	12.13	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	9
  CA--> EL--> NNP--> ST--> WC--> IP--> NC 	12.13	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	9
  CA--> EL--> NNP--> ST--> WC--> NC--> IP 	12.13	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	9
+ CA--> IP--> NC--> EL--> NNP--> ST--> WC 	12.61	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	10
+ CA--> IP--> WC--> EL--> NNP--> ST--> NC 	12.61	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	10
+ CA--> IP--> EL--> WC--> NNP--> ST--> NC 	12.61	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	10
+ CA--> NC--> IP--> EL--> NNP--> ST--> WC 	12.61	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	10
+ CA--> EL--> IP--> NC--> NNP--> ST--> WC 	12.61	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	10
+ CA--> EL--> IP--> WC--> NNP--> ST--> NC 	12.61	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	10
+ CA--> EL--> NC--> IP--> NNP--> ST--> WC 	12.61	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	10
+ CA--> EL--> WC--> IP--> NNP--> ST--> NC 	12.61	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	10
+ CA--> WC--> IP--> NC--> EL--> ST--> NNP 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
+ CA--> WC--> IP--> NC--> EL--> NNP--> ST 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
+ CA--> WC--> IP--> EL--> ST--> NNP--> NC 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
+ CA--> WC--> NC--> IP--> EL--> ST--> NNP 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
+ CA--> WC--> NC--> IP--> EL--> NNP--> ST 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
+ CA--> WC--> EL--> IP--> NC--> ST--> NNP 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
+ CA--> WC--> EL--> IP--> NC--> NNP--> ST 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
+ CA--> WC--> EL--> IP--> ST--> NNP--> NC 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
+ CA--> WC--> EL--> NC--> IP--> ST--> NNP 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
+ CA--> WC--> EL--> NC--> IP--> NNP--> ST 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
  CA--> IP--> NC--> WC--> ST--> NNP--> EL 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> IP--> NC--> WC--> NNP--> ST--> EL 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> IP--> NC--> WC--> NNP--> EL--> ST 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
@@ -55,13 +73,10 @@ Sequence	Cost	Path	Hops
  CA--> IP--> NC--> NNP--> WC--> EL--> ST 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> IP--> NC--> NNP--> ST--> WC--> EL 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> IP--> NC--> NNP--> ST--> EL--> WC 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
- CA--> IP--> NC--> EL--> NNP--> ST--> WC 	12.61	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	10
  CA--> IP--> WC--> ST--> NNP--> EL--> NC 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> IP--> WC--> NNP--> ST--> EL--> NC 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
- CA--> IP--> WC--> EL--> NNP--> ST--> NC 	12.61	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	10
  CA--> IP--> ST--> NNP--> WC--> EL--> NC 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> IP--> NNP--> ST--> WC--> EL--> NC 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
- CA--> IP--> EL--> WC--> NNP--> ST--> NC 	12.61	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	10
  CA--> NC--> IP--> WC--> ST--> NNP--> EL 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> NC--> IP--> WC--> NNP--> ST--> EL 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> NC--> IP--> WC--> NNP--> EL--> ST 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
@@ -70,27 +85,6 @@ Sequence	Cost	Path	Hops
  CA--> NC--> IP--> NNP--> WC--> EL--> ST 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> NC--> IP--> NNP--> ST--> WC--> EL 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
  CA--> NC--> IP--> NNP--> ST--> EL--> WC 	12.88	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	10
- CA--> NC--> IP--> EL--> NNP--> ST--> WC 	12.61	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	10
- CA--> WC--> IP--> NC--> EL--> ST--> NNP 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
- CA--> WC--> IP--> NC--> EL--> NNP--> ST 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
- CA--> WC--> IP--> EL--> ST--> NNP--> NC 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
- CA--> WC--> NC--> IP--> EL--> ST--> NNP 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
- CA--> WC--> NC--> IP--> EL--> NNP--> ST 	12.73	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	10
- CA--> WC--> ST--> NNP--> EL--> IP--> NC 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
- CA--> WC--> ST--> NNP--> EL--> NC--> IP 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
- CA--> WC--> NNP--> ST--> EL--> IP--> NC 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
- CA--> WC--> NNP--> ST--> EL--> NC--> IP 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
- CA--> WC--> NNP--> EL--> NC--> IP--> ST 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
- CA--> WC--> EL--> IP--> NC--> ST--> NNP 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
- CA--> WC--> EL--> IP--> NC--> NNP--> ST 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
- CA--> WC--> EL--> IP--> ST--> NNP--> NC 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
- CA--> WC--> EL--> NC--> IP--> ST--> NNP 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
- CA--> WC--> EL--> NC--> IP--> NNP--> ST 	12.73	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	10
- CA--> WC--> EL--> ST--> NNP--> IP--> NC 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
- CA--> WC--> EL--> ST--> NNP--> NC--> IP 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
- CA--> WC--> EL--> NNP--> NC--> IP--> ST 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
- CA--> WC--> EL--> NNP--> ST--> IP--> NC 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
- CA--> WC--> EL--> NNP--> ST--> NC--> IP 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
  CA--> ST--> NNP--> IP--> NC--> WC--> EL 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> ST--> NNP--> IP--> NC--> EL--> WC 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> ST--> NNP--> IP--> WC--> EL--> NC 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
@@ -99,12 +93,10 @@ Sequence	Cost	Path	Hops
  CA--> ST--> NNP--> WC--> IP--> NC--> EL 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> ST--> NNP--> WC--> IP--> EL--> NC 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> ST--> NNP--> WC--> NC--> IP--> EL 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
- CA--> ST--> NNP--> EL--> IP--> NC--> WC 	12.93	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC 	10
  CA--> NNP--> IP--> NC--> WC--> EL--> ST 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> NNP--> NC--> IP--> WC--> EL--> ST 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> NNP--> WC--> IP--> NC--> EL--> ST 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> NNP--> WC--> NC--> IP--> EL--> ST 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
- CA--> NNP--> WC--> EL--> IP--> NC--> ST 	12.93	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC 	10
  CA--> NNP--> ST--> IP--> NC--> WC--> EL 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> NNP--> ST--> IP--> NC--> EL--> WC 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> NNP--> ST--> IP--> WC--> EL--> NC 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
@@ -113,84 +105,127 @@ Sequence	Cost	Path	Hops
  CA--> NNP--> ST--> WC--> IP--> NC--> EL 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> NNP--> ST--> WC--> IP--> EL--> NC 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
  CA--> NNP--> ST--> WC--> NC--> IP--> EL 	12.88	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	10
+ CA--> ST--> NNP--> EL--> IP--> NC--> WC 	12.93	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC 	10
+ CA--> NNP--> WC--> EL--> IP--> NC--> ST 	12.93	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC 	10
  CA--> NNP--> ST--> EL--> IP--> NC--> WC 	12.93	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC 	10
  CA--> NNP--> EL--> WC--> IP--> NC--> ST 	12.93	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC 	10
- CA--> EL--> IP--> NC--> NNP--> ST--> WC 	12.61	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	10
- CA--> EL--> IP--> WC--> NNP--> ST--> NC 	12.61	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	10
- CA--> EL--> NC--> IP--> NNP--> ST--> WC 	12.61	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	10
- CA--> EL--> WC--> IP--> NNP--> ST--> NC 	12.61	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	10
  CA--> EL--> WC--> NNP--> IP--> NC--> ST 	12.93	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC 	10
  CA--> EL--> ST--> NNP--> IP--> NC--> WC 	12.93	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC 	10
  CA--> EL--> NNP--> WC--> IP--> NC--> ST 	12.93	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC 	10
  CA--> EL--> NNP--> ST--> IP--> NC--> WC 	12.93	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC 	10
- CA--> IP--> NC--> WC--> ST--> EL--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> IP--> NC--> ST--> WC--> EL--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> IP--> NC--> ST--> EL--> WC--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> IP--> NC--> ST--> EL--> NNP--> WC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> IP--> NC--> NNP--> EL--> WC--> ST 	13.89	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	11
- CA--> IP--> NC--> EL--> ST--> WC--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> ST--> NNP 	11
- CA--> IP--> NC--> EL--> NNP--> WC--> ST 	13.89	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	11
  CA--> IP--> WC--> NC--> EL--> ST--> NNP 	13.69	 CA--> NC--> IP--> NC--> WC--> NC--> WC--> EL--> WC--> ST--> NNP 	11
  CA--> IP--> WC--> NC--> EL--> NNP--> ST 	13.69	 CA--> NC--> IP--> NC--> WC--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> IP--> WC--> ST--> EL--> NNP--> NC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
  CA--> IP--> WC--> EL--> NC--> ST--> NNP 	13.69	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	11
  CA--> IP--> WC--> EL--> NC--> NNP--> ST 	13.69	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	11
- CA--> IP--> ST--> WC--> EL--> NNP--> NC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> IP--> ST--> NNP--> EL--> WC--> NC 	13.89	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	11
- CA--> IP--> ST--> EL--> WC--> NNP--> NC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> IP--> NNP--> ST--> EL--> WC--> NC 	13.89	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	11
  CA--> IP--> EL--> NC--> WC--> ST--> NNP 	13.69	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	11
  CA--> IP--> EL--> NC--> WC--> NNP--> ST 	13.69	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	11
  CA--> IP--> EL--> NC--> ST--> NNP--> WC 	13.69	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	11
  CA--> IP--> EL--> WC--> NC--> ST--> NNP 	13.69	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	11
  CA--> IP--> EL--> WC--> NC--> NNP--> ST 	13.69	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	11
- CA--> IP--> EL--> ST--> WC--> NNP--> NC 	14.01	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> ST--> NNP 	11
- CA--> IP--> EL--> ST--> NNP--> WC--> NC 	13.89	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	11
- CA--> IP--> EL--> NNP--> ST--> WC--> NC 	13.89	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	11
- CA--> NC--> IP--> WC--> ST--> EL--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> NC--> IP--> ST--> WC--> EL--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> NC--> IP--> ST--> EL--> WC--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> NC--> IP--> ST--> EL--> NNP--> WC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> NC--> IP--> NNP--> EL--> WC--> ST 	13.89	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	11
- CA--> NC--> IP--> EL--> ST--> WC--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> ST--> NNP 	11
- CA--> NC--> IP--> EL--> NNP--> WC--> ST 	13.89	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	11
  CA--> NC--> WC--> IP--> EL--> ST--> NNP 	13.69	 CA--> NC--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
  CA--> NC--> WC--> IP--> EL--> NNP--> ST 	13.69	 CA--> NC--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> NC--> WC--> ST--> NNP--> EL--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NC--> WC--> NNP--> ST--> EL--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NC--> WC--> NNP--> EL--> IP--> ST 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
  CA--> NC--> WC--> EL--> IP--> ST--> NNP 	13.69	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
  CA--> NC--> WC--> EL--> IP--> NNP--> ST 	13.69	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> NC--> WC--> EL--> ST--> NNP--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> WC--> EL--> NNP--> IP--> ST 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> WC--> EL--> NNP--> ST--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> ST--> NNP--> WC--> EL--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NC--> ST--> NNP--> EL--> IP--> WC 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NC--> ST--> NNP--> EL--> WC--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NC--> NNP--> WC--> EL--> IP--> ST 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NC--> NNP--> ST--> WC--> EL--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NC--> NNP--> ST--> EL--> IP--> WC 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NC--> NNP--> ST--> EL--> WC--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NC--> NNP--> EL--> WC--> IP--> ST 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
  CA--> NC--> EL--> IP--> WC--> ST--> NNP 	13.69	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
  CA--> NC--> EL--> IP--> WC--> NNP--> ST 	13.69	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
  CA--> NC--> EL--> IP--> ST--> NNP--> WC 	13.69	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
  CA--> NC--> EL--> WC--> IP--> ST--> NNP 	13.69	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
  CA--> NC--> EL--> WC--> IP--> NNP--> ST 	13.69	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> NC--> EL--> WC--> ST--> NNP--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> EL--> WC--> NNP--> IP--> ST 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> EL--> WC--> NNP--> ST--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> EL--> ST--> NNP--> IP--> WC 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> EL--> ST--> NNP--> WC--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> EL--> NNP--> WC--> IP--> ST 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> EL--> NNP--> ST--> IP--> WC 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NC--> EL--> NNP--> ST--> WC--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> EL--> IP--> WC--> NC--> ST--> NNP 	13.69	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> IP--> WC--> NC--> NNP--> ST 	13.69	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> NC--> WC--> IP--> ST--> NNP 	13.69	 CA--> EL--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> NC--> WC--> IP--> NNP--> ST 	13.69	 CA--> EL--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> WC--> ST--> NNP--> EL--> IP--> NC 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
+ CA--> WC--> ST--> NNP--> EL--> NC--> IP 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
+ CA--> WC--> NNP--> ST--> EL--> IP--> NC 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
+ CA--> WC--> NNP--> ST--> EL--> NC--> IP 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
+ CA--> WC--> NNP--> EL--> NC--> IP--> ST 	13.88	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	10
+ CA--> WC--> EL--> ST--> NNP--> IP--> NC 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
+ CA--> WC--> EL--> ST--> NNP--> NC--> IP 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
+ CA--> WC--> EL--> NNP--> NC--> IP--> ST 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
+ CA--> WC--> EL--> NNP--> ST--> IP--> NC 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
+ CA--> WC--> EL--> NNP--> ST--> NC--> IP 	13.88	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	10
+ CA--> IP--> NC--> NNP--> EL--> WC--> ST 	13.89	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	11
+ CA--> IP--> NC--> EL--> NNP--> WC--> ST 	13.89	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	11
+ CA--> IP--> ST--> NNP--> EL--> WC--> NC 	13.89	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	11
+ CA--> IP--> NNP--> ST--> EL--> WC--> NC 	13.89	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	11
+ CA--> IP--> EL--> ST--> NNP--> WC--> NC 	13.89	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	11
+ CA--> IP--> EL--> NNP--> ST--> WC--> NC 	13.89	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	11
+ CA--> NC--> IP--> NNP--> EL--> WC--> ST 	13.89	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	11
+ CA--> NC--> IP--> EL--> NNP--> WC--> ST 	13.89	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	11
+ CA--> ST--> NNP--> IP--> EL--> WC--> NC 	13.89	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	11
+ CA--> ST--> NNP--> EL--> IP--> WC--> NC 	13.89	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	11
+ CA--> NNP--> IP--> NC--> EL--> WC--> ST 	13.89	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	11
+ CA--> NNP--> NC--> IP--> EL--> WC--> ST 	13.89	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	11
+ CA--> NNP--> ST--> IP--> EL--> WC--> NC 	13.89	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	11
+ CA--> NNP--> ST--> EL--> IP--> WC--> NC 	13.89	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	11
+ CA--> NNP--> EL--> IP--> NC--> WC--> ST 	13.89	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	11
+ CA--> NNP--> EL--> NC--> IP--> WC--> ST 	13.89	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	11
+ CA--> EL--> IP--> NC--> NNP--> WC--> ST 	13.89	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	11
+ CA--> EL--> IP--> ST--> NNP--> WC--> NC 	13.89	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	11
+ CA--> EL--> IP--> NNP--> ST--> WC--> NC 	13.89	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	11
+ CA--> EL--> NC--> IP--> NNP--> WC--> ST 	13.89	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	11
+ CA--> EL--> ST--> NNP--> IP--> WC--> NC 	13.89	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	11
+ CA--> EL--> NNP--> IP--> NC--> WC--> ST 	13.89	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	11
+ CA--> EL--> NNP--> NC--> IP--> WC--> ST 	13.89	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	11
+ CA--> EL--> NNP--> ST--> IP--> WC--> NC 	13.89	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	11
+ CA--> IP--> NC--> WC--> ST--> EL--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> IP--> NC--> ST--> WC--> EL--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> IP--> NC--> ST--> EL--> WC--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> IP--> NC--> ST--> EL--> NNP--> WC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> IP--> NC--> EL--> ST--> WC--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> ST--> NNP 	11
+ CA--> IP--> WC--> ST--> EL--> NNP--> NC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> IP--> ST--> WC--> EL--> NNP--> NC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> IP--> ST--> EL--> WC--> NNP--> NC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> IP--> EL--> ST--> WC--> NNP--> NC 	14.01	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> ST--> NNP 	11
+ CA--> NC--> IP--> WC--> ST--> EL--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> NC--> IP--> ST--> WC--> EL--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> NC--> IP--> ST--> EL--> WC--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> NC--> IP--> ST--> EL--> NNP--> WC 	14.01	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> NC--> IP--> EL--> ST--> WC--> NNP 	14.01	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> ST--> NNP 	11
+ CA--> ST--> IP--> NC--> WC--> EL--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> IP--> NC--> EL--> WC--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> IP--> NC--> EL--> NNP--> WC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> IP--> WC--> EL--> NNP--> NC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> IP--> EL--> WC--> NNP--> NC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> NC--> IP--> WC--> EL--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> NC--> IP--> EL--> WC--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> NC--> IP--> EL--> NNP--> WC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> WC--> IP--> NC--> EL--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> WC--> IP--> EL--> NNP--> NC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> WC--> NC--> IP--> EL--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
+ CA--> ST--> WC--> EL--> IP--> NC--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> WC--> EL--> IP--> NNP--> NC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> WC--> EL--> NC--> IP--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> EL--> IP--> NC--> WC--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> EL--> IP--> NC--> NNP--> WC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> EL--> IP--> WC--> NNP--> NC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> EL--> NC--> IP--> WC--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> EL--> NC--> IP--> NNP--> WC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> EL--> WC--> IP--> NC--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> EL--> WC--> IP--> NNP--> NC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> ST--> EL--> WC--> NC--> IP--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> IP--> NC--> ST--> WC--> NNP 	14.01	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP 	11
+ CA--> EL--> IP--> ST--> WC--> NNP--> NC 	14.01	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP 	11
+ CA--> EL--> NC--> IP--> ST--> WC--> NNP 	14.01	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP 	11
+ CA--> EL--> WC--> ST--> IP--> NC--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> WC--> ST--> IP--> NNP--> NC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> WC--> ST--> NC--> IP--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> ST--> IP--> NC--> WC--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> ST--> IP--> NC--> NNP--> WC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> ST--> IP--> WC--> NNP--> NC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> ST--> NC--> IP--> WC--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> ST--> NC--> IP--> NNP--> WC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> ST--> WC--> IP--> NC--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> ST--> WC--> IP--> NNP--> NC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> ST--> WC--> NC--> IP--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> WC--> IP--> EL--> NNP--> ST--> NC 	14.36	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	11
+ CA--> WC--> EL--> IP--> NNP--> ST--> NC 	14.36	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	11
  CA--> WC--> IP--> NC--> ST--> NNP--> EL 	14.63	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	11
  CA--> WC--> IP--> NC--> NNP--> ST--> EL 	14.63	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	11
  CA--> WC--> IP--> NC--> NNP--> EL--> ST 	14.63	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	11
  CA--> WC--> IP--> ST--> NNP--> EL--> NC 	14.63	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	11
  CA--> WC--> IP--> NNP--> ST--> EL--> NC 	14.63	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	11
- CA--> WC--> IP--> EL--> NNP--> ST--> NC 	14.36	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST 	11
  CA--> WC--> NC--> IP--> ST--> NNP--> EL 	14.63	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	11
  CA--> WC--> NC--> IP--> NNP--> ST--> EL 	14.63	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	11
  CA--> WC--> NC--> IP--> NNP--> EL--> ST 	14.63	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	11
@@ -203,81 +238,43 @@ Sequence	Cost	Path	Hops
  CA--> WC--> NNP--> ST--> IP--> EL--> NC 	14.63	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	11
  CA--> WC--> NNP--> ST--> NC--> IP--> EL 	14.63	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	11
  CA--> WC--> NNP--> EL--> IP--> NC--> ST 	14.68	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC 	11
- CA--> WC--> EL--> IP--> NNP--> ST--> NC 	14.36	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	11
  CA--> WC--> EL--> NNP--> IP--> NC--> ST 	14.68	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC 	11
- CA--> ST--> IP--> NC--> WC--> EL--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> IP--> NC--> EL--> WC--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> IP--> NC--> EL--> NNP--> WC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> IP--> WC--> EL--> NNP--> NC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> IP--> EL--> WC--> NNP--> NC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> NC--> IP--> WC--> EL--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> NC--> IP--> EL--> WC--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> NC--> IP--> EL--> NNP--> WC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> WC--> IP--> NC--> EL--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> WC--> IP--> EL--> NNP--> NC 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> WC--> NC--> IP--> EL--> NNP 	14.01	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	11
- CA--> ST--> WC--> NNP--> EL--> IP--> NC 	15.16	 CA--> ST--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> ST--> WC--> NNP--> EL--> NC--> IP 	15.16	 CA--> ST--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> ST--> WC--> EL--> IP--> NC--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> WC--> EL--> IP--> NNP--> NC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> WC--> EL--> NC--> IP--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> WC--> EL--> NNP--> IP--> NC 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> ST--> WC--> EL--> NNP--> NC--> IP 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> ST--> NNP--> IP--> EL--> WC--> NC 	13.89	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	11
+ CA--> NC--> WC--> ST--> NNP--> EL--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> WC--> NNP--> ST--> EL--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> WC--> NNP--> EL--> IP--> ST 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> WC--> EL--> ST--> NNP--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> WC--> EL--> NNP--> IP--> ST 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> WC--> EL--> NNP--> ST--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> ST--> NNP--> WC--> EL--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> ST--> NNP--> EL--> IP--> WC 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> ST--> NNP--> EL--> WC--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> NNP--> WC--> EL--> IP--> ST 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> NNP--> ST--> WC--> EL--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> NNP--> ST--> EL--> IP--> WC 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> NNP--> ST--> EL--> WC--> IP 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> NNP--> EL--> WC--> IP--> ST 	14.84	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NC--> EL--> WC--> ST--> NNP--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> EL--> WC--> NNP--> IP--> ST 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> EL--> WC--> NNP--> ST--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> EL--> ST--> NNP--> IP--> WC 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> EL--> ST--> NNP--> WC--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> EL--> NNP--> WC--> IP--> ST 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> EL--> NNP--> ST--> IP--> WC 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NC--> EL--> NNP--> ST--> WC--> IP 	14.84	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
  CA--> ST--> NNP--> NC--> WC--> EL--> IP 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
  CA--> ST--> NNP--> NC--> EL--> IP--> WC 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
  CA--> ST--> NNP--> NC--> EL--> WC--> IP 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
  CA--> ST--> NNP--> WC--> NC--> EL--> IP 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
- CA--> ST--> NNP--> EL--> IP--> WC--> NC 	13.89	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	11
  CA--> ST--> NNP--> EL--> NC--> WC--> IP 	14.84	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> NC--> IP 	11
- CA--> ST--> EL--> IP--> NC--> WC--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> EL--> IP--> NC--> NNP--> WC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> EL--> IP--> WC--> NNP--> NC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> EL--> NC--> IP--> WC--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> EL--> NC--> IP--> NNP--> WC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> EL--> WC--> IP--> NC--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> EL--> WC--> IP--> NNP--> NC 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> EL--> WC--> NC--> IP--> NNP 	14.01	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> ST--> EL--> WC--> NNP--> IP--> NC 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> ST--> EL--> WC--> NNP--> NC--> IP 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> ST--> EL--> NNP--> NC--> IP--> WC 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> ST--> EL--> NNP--> WC--> IP--> NC 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> ST--> EL--> NNP--> WC--> NC--> IP 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> NNP--> IP--> NC--> EL--> WC--> ST 	13.89	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	11
- CA--> NNP--> NC--> IP--> EL--> WC--> ST 	13.89	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	11
  CA--> NNP--> NC--> WC--> EL--> IP--> ST 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
  CA--> NNP--> NC--> EL--> WC--> IP--> ST 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
  CA--> NNP--> WC--> NC--> EL--> IP--> ST 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NNP--> WC--> ST--> EL--> IP--> NC 	15.16	 CA--> ST--> NNP--> ST--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NNP--> WC--> ST--> EL--> NC--> IP 	15.16	 CA--> ST--> NNP--> ST--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NNP--> WC--> EL--> ST--> IP--> NC 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
- CA--> NNP--> WC--> EL--> ST--> NC--> IP 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
- CA--> NNP--> ST--> IP--> EL--> WC--> NC 	13.89	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	11
  CA--> NNP--> ST--> NC--> WC--> EL--> IP 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
  CA--> NNP--> ST--> NC--> EL--> IP--> WC 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
  CA--> NNP--> ST--> NC--> EL--> WC--> IP 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
  CA--> NNP--> ST--> WC--> NC--> EL--> IP 	14.84	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	11
- CA--> NNP--> ST--> EL--> IP--> WC--> NC 	13.89	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	11
  CA--> NNP--> ST--> EL--> NC--> WC--> IP 	14.84	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> NC--> IP 	11
- CA--> NNP--> EL--> IP--> NC--> WC--> ST 	13.89	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	11
- CA--> NNP--> EL--> NC--> IP--> WC--> ST 	13.89	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	11
  CA--> NNP--> EL--> NC--> WC--> IP--> ST 	14.84	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> NC--> IP 	11
- CA--> NNP--> EL--> WC--> ST--> IP--> NC 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
- CA--> NNP--> EL--> WC--> ST--> NC--> IP 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
- CA--> NNP--> EL--> ST--> NC--> IP--> WC 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
- CA--> NNP--> EL--> ST--> WC--> IP--> NC 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
- CA--> NNP--> EL--> ST--> WC--> NC--> IP 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
- CA--> EL--> IP--> NC--> ST--> WC--> NNP 	14.01	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP 	11
- CA--> EL--> IP--> NC--> NNP--> WC--> ST 	13.89	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	11
- CA--> EL--> IP--> WC--> NC--> ST--> NNP 	13.69	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> IP--> WC--> NC--> NNP--> ST 	13.69	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> IP--> ST--> WC--> NNP--> NC 	14.01	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP 	11
- CA--> EL--> IP--> ST--> NNP--> WC--> NC 	13.89	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	11
- CA--> EL--> IP--> NNP--> ST--> WC--> NC 	13.89	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	11
- CA--> EL--> NC--> IP--> ST--> WC--> NNP 	14.01	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP 	11
- CA--> EL--> NC--> IP--> NNP--> WC--> ST 	13.89	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	11
- CA--> EL--> NC--> WC--> IP--> ST--> NNP 	13.69	 CA--> EL--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> NC--> WC--> IP--> NNP--> ST 	13.69	 CA--> EL--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
  CA--> EL--> NC--> WC--> ST--> NNP--> IP 	14.84	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
  CA--> EL--> NC--> WC--> NNP--> IP--> ST 	14.84	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
  CA--> EL--> NC--> WC--> NNP--> ST--> IP 	14.84	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
@@ -289,65 +286,51 @@ Sequence	Cost	Path	Hops
  CA--> EL--> WC--> NC--> ST--> NNP--> IP 	14.84	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
  CA--> EL--> WC--> NC--> NNP--> IP--> ST 	14.84	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
  CA--> EL--> WC--> NC--> NNP--> ST--> IP 	14.84	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> EL--> WC--> ST--> IP--> NC--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> WC--> ST--> IP--> NNP--> NC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> WC--> ST--> NC--> IP--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> ST--> IP--> NC--> WC--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> ST--> IP--> NC--> NNP--> WC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> ST--> IP--> WC--> NNP--> NC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> ST--> NC--> IP--> WC--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> ST--> NC--> IP--> NNP--> WC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> ST--> WC--> IP--> NC--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> ST--> WC--> IP--> NNP--> NC 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
- CA--> EL--> ST--> WC--> NC--> IP--> NNP 	14.01	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	11
+ CA--> EL--> ST--> NNP--> NC--> WC--> IP 	14.84	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP 	11
+ CA--> EL--> NNP--> NC--> WC--> IP--> ST 	14.84	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP 	11
+ CA--> EL--> NNP--> ST--> NC--> WC--> IP 	14.84	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP 	11
+ CA--> ST--> WC--> NNP--> EL--> IP--> NC 	15.16	 CA--> ST--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> ST--> WC--> NNP--> EL--> NC--> IP 	15.16	 CA--> ST--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> ST--> WC--> EL--> NNP--> IP--> NC 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> ST--> WC--> EL--> NNP--> NC--> IP 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> ST--> EL--> WC--> NNP--> IP--> NC 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> ST--> EL--> WC--> NNP--> NC--> IP 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> ST--> EL--> NNP--> NC--> IP--> WC 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> ST--> EL--> NNP--> WC--> IP--> NC 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> ST--> EL--> NNP--> WC--> NC--> IP 	15.16	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
+ CA--> NNP--> WC--> ST--> EL--> IP--> NC 	15.16	 CA--> ST--> NNP--> ST--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NNP--> WC--> ST--> EL--> NC--> IP 	15.16	 CA--> ST--> NNP--> ST--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	11
+ CA--> NNP--> WC--> EL--> ST--> IP--> NC 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
+ CA--> NNP--> WC--> EL--> ST--> NC--> IP 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
+ CA--> NNP--> EL--> WC--> ST--> IP--> NC 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
+ CA--> NNP--> EL--> WC--> ST--> NC--> IP 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
+ CA--> NNP--> EL--> ST--> NC--> IP--> WC 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
+ CA--> NNP--> EL--> ST--> WC--> IP--> NC 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
+ CA--> NNP--> EL--> ST--> WC--> NC--> IP 	15.16	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	11
  CA--> EL--> ST--> WC--> NNP--> IP--> NC 	15.16	 CA--> EL--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
  CA--> EL--> ST--> WC--> NNP--> NC--> IP 	15.16	 CA--> EL--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	11
- CA--> EL--> ST--> NNP--> IP--> WC--> NC 	13.89	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	11
- CA--> EL--> ST--> NNP--> NC--> WC--> IP 	14.84	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP 	11
- CA--> EL--> NNP--> IP--> NC--> WC--> ST 	13.89	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	11
- CA--> EL--> NNP--> NC--> IP--> WC--> ST 	13.89	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	11
- CA--> EL--> NNP--> NC--> WC--> IP--> ST 	14.84	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP 	11
  CA--> EL--> NNP--> WC--> ST--> IP--> NC 	15.16	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> IP 	11
  CA--> EL--> NNP--> WC--> ST--> NC--> IP 	15.16	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> IP 	11
- CA--> EL--> NNP--> ST--> IP--> WC--> NC 	13.89	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	11
- CA--> EL--> NNP--> ST--> NC--> WC--> IP 	14.84	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP 	11
- CA--> IP--> NC--> ST--> WC--> NNP--> EL 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> EL 	12
- CA--> IP--> NC--> NNP--> WC--> ST--> EL 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> EL 	12
- CA--> IP--> NC--> NNP--> EL--> ST--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
+ CA--> IP--> EL--> NC--> NNP--> ST--> WC 	15.32	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST 	12
+ CA--> NC--> EL--> IP--> NNP--> ST--> WC 	15.32	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	12
+ CA--> WC--> IP--> EL--> NC--> ST--> NNP 	15.44	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	12
+ CA--> WC--> IP--> EL--> NC--> NNP--> ST 	15.44	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	12
+ CA--> WC--> NC--> EL--> IP--> ST--> NNP 	15.44	 CA--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
+ CA--> WC--> NC--> EL--> IP--> NNP--> ST 	15.44	 CA--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
  CA--> IP--> WC--> NC--> ST--> NNP--> EL 	15.59	 CA--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	12
  CA--> IP--> WC--> NC--> NNP--> ST--> EL 	15.59	 CA--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	12
  CA--> IP--> WC--> NC--> NNP--> EL--> ST 	15.59	 CA--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	12
  CA--> IP--> WC--> ST--> NNP--> NC--> EL 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
  CA--> IP--> WC--> NNP--> NC--> EL--> ST 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
  CA--> IP--> WC--> NNP--> ST--> NC--> EL 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
- CA--> IP--> WC--> NNP--> EL--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
- CA--> IP--> WC--> NNP--> EL--> ST--> NC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
- CA--> IP--> WC--> EL--> NNP--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> IP--> ST--> WC--> NNP--> EL--> NC 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> EL 	12
  CA--> IP--> ST--> NNP--> NC--> WC--> EL 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
  CA--> IP--> ST--> NNP--> NC--> EL--> WC 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
  CA--> IP--> ST--> NNP--> WC--> NC--> EL 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
- CA--> IP--> ST--> NNP--> EL--> NC--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
  CA--> IP--> NNP--> NC--> WC--> EL--> ST 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
  CA--> IP--> NNP--> WC--> NC--> EL--> ST 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
- CA--> IP--> NNP--> WC--> ST--> EL--> NC 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> EL 	12
- CA--> IP--> NNP--> WC--> EL--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
- CA--> IP--> NNP--> WC--> EL--> ST--> NC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
  CA--> IP--> NNP--> ST--> NC--> WC--> EL 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
  CA--> IP--> NNP--> ST--> NC--> EL--> WC 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
  CA--> IP--> NNP--> ST--> WC--> NC--> EL 	15.59	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	12
- CA--> IP--> NNP--> ST--> EL--> NC--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
- CA--> IP--> NNP--> EL--> WC--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
- CA--> IP--> NNP--> EL--> WC--> ST--> NC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
- CA--> IP--> EL--> NC--> NNP--> ST--> WC 	15.32	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST 	12
- CA--> IP--> EL--> WC--> NNP--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> IP--> EL--> ST--> NNP--> NC--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> IP--> EL--> NNP--> WC--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> IP--> EL--> NNP--> WC--> ST--> NC 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> ST 	12
- CA--> IP--> EL--> NNP--> ST--> NC--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> NC--> IP--> ST--> WC--> NNP--> EL 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> EL 	12
- CA--> NC--> IP--> NNP--> WC--> ST--> EL 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> EL 	12
- CA--> NC--> IP--> NNP--> EL--> ST--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
  CA--> NC--> WC--> IP--> ST--> NNP--> EL 	15.59	 CA--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	12
  CA--> NC--> WC--> IP--> NNP--> ST--> EL 	15.59	 CA--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	12
  CA--> NC--> WC--> IP--> NNP--> EL--> ST 	15.59	 CA--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	12
@@ -362,39 +345,74 @@ Sequence	Cost	Path	Hops
  CA--> NC--> NNP--> ST--> IP--> WC--> EL 	15.59	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	12
  CA--> NC--> NNP--> ST--> IP--> EL--> WC 	15.59	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	12
  CA--> NC--> NNP--> ST--> WC--> IP--> EL 	15.59	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	12
- CA--> NC--> EL--> IP--> NNP--> ST--> WC 	15.32	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST 	12
+ CA--> ST--> NNP--> IP--> WC--> NC--> EL 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> EL 	12
+ CA--> ST--> NNP--> NC--> WC--> IP--> EL 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> EL 	12
+ CA--> NNP--> IP--> WC--> NC--> EL--> ST 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> EL 	12
+ CA--> NNP--> NC--> WC--> IP--> EL--> ST 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> EL 	12
+ CA--> NNP--> ST--> IP--> WC--> NC--> EL 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> EL 	12
+ CA--> NNP--> ST--> NC--> WC--> IP--> EL 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> EL 	12
+ CA--> IP--> NC--> NNP--> EL--> ST--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
+ CA--> IP--> WC--> NNP--> EL--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
+ CA--> IP--> WC--> NNP--> EL--> ST--> NC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
+ CA--> IP--> WC--> EL--> NNP--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> IP--> ST--> NNP--> EL--> NC--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
+ CA--> IP--> NNP--> WC--> EL--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
+ CA--> IP--> NNP--> WC--> EL--> ST--> NC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
+ CA--> IP--> NNP--> ST--> EL--> NC--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
+ CA--> IP--> NNP--> EL--> WC--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	12
+ CA--> IP--> NNP--> EL--> WC--> ST--> NC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
+ CA--> IP--> EL--> WC--> NNP--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> IP--> EL--> ST--> NNP--> NC--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> IP--> EL--> NNP--> WC--> NC--> ST 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> IP--> EL--> NNP--> WC--> ST--> NC 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> ST 	12
+ CA--> IP--> EL--> NNP--> ST--> NC--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> NC--> IP--> NNP--> EL--> ST--> WC 	15.64	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	12
+ CA--> ST--> NNP--> IP--> EL--> NC--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
+ CA--> NNP--> IP--> NC--> EL--> ST--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
+ CA--> NNP--> IP--> WC--> EL--> NC--> ST 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
+ CA--> NNP--> IP--> WC--> EL--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
+ CA--> NNP--> IP--> EL--> WC--> NC--> ST 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
+ CA--> NNP--> IP--> EL--> WC--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
+ CA--> NNP--> NC--> IP--> EL--> ST--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
+ CA--> NNP--> WC--> IP--> EL--> NC--> ST 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
+ CA--> NNP--> WC--> IP--> EL--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
+ CA--> NNP--> WC--> EL--> IP--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> NNP--> ST--> IP--> EL--> NC--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
+ CA--> NNP--> EL--> IP--> NC--> ST--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> NNP--> EL--> IP--> WC--> NC--> ST 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> NC 	12
+ CA--> NNP--> EL--> IP--> WC--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> NNP--> EL--> NC--> IP--> ST--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> NNP--> EL--> WC--> IP--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> EL--> IP--> WC--> NNP--> NC--> ST 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> EL--> IP--> ST--> NNP--> NC--> WC 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> EL--> IP--> NNP--> WC--> NC--> ST 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> EL--> IP--> NNP--> WC--> ST--> NC 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> ST 	12
+ CA--> EL--> IP--> NNP--> ST--> NC--> WC 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> EL--> WC--> IP--> NNP--> NC--> ST 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
+ CA--> EL--> WC--> NNP--> IP--> ST--> NC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> EL--> NNP--> IP--> NC--> ST--> WC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> EL--> NNP--> IP--> WC--> NC--> ST 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> NC 	12
+ CA--> EL--> NNP--> IP--> WC--> ST--> NC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> EL--> NNP--> NC--> IP--> ST--> WC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> EL--> NNP--> WC--> IP--> ST--> NC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
  CA--> WC--> IP--> NC--> ST--> EL--> NNP 	15.76	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	12
  CA--> WC--> IP--> ST--> EL--> NNP--> NC 	15.76	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	12
- CA--> WC--> IP--> EL--> NC--> ST--> NNP 	15.44	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	12
- CA--> WC--> IP--> EL--> NC--> NNP--> ST 	15.44	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	12
  CA--> WC--> NC--> IP--> ST--> EL--> NNP 	15.76	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	12
- CA--> WC--> NC--> ST--> NNP--> EL--> IP 	16.59	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	12
- CA--> WC--> NC--> NNP--> ST--> EL--> IP 	16.59	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	12
- CA--> WC--> NC--> NNP--> EL--> IP--> ST 	16.59	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	12
- CA--> WC--> NC--> EL--> IP--> ST--> NNP 	15.44	 CA--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
- CA--> WC--> NC--> EL--> IP--> NNP--> ST 	15.44	 CA--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
- CA--> WC--> NC--> EL--> ST--> NNP--> IP 	16.59	 CA--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
- CA--> WC--> NC--> EL--> NNP--> IP--> ST 	16.59	 CA--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
- CA--> WC--> NC--> EL--> NNP--> ST--> IP 	16.59	 CA--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
  CA--> WC--> ST--> IP--> NC--> EL--> NNP 	15.76	 CA--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	12
  CA--> WC--> ST--> IP--> EL--> NNP--> NC 	15.76	 CA--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	12
  CA--> WC--> ST--> NC--> IP--> EL--> NNP 	15.76	 CA--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	12
- CA--> WC--> ST--> NNP--> NC--> EL--> IP 	16.59	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	12
  CA--> WC--> ST--> EL--> IP--> NC--> NNP 	15.76	 CA--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
  CA--> WC--> ST--> EL--> IP--> NNP--> NC 	15.76	 CA--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
  CA--> WC--> ST--> EL--> NC--> IP--> NNP 	15.76	 CA--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
- CA--> WC--> ST--> EL--> NNP--> IP--> NC 	16.91	 CA--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
- CA--> WC--> ST--> EL--> NNP--> NC--> IP 	16.91	 CA--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
- CA--> WC--> NNP--> NC--> EL--> IP--> ST 	16.59	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	12
- CA--> WC--> NNP--> ST--> NC--> EL--> IP 	16.59	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	12
- CA--> WC--> NNP--> EL--> ST--> IP--> NC 	16.91	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	12
- CA--> WC--> NNP--> EL--> ST--> NC--> IP 	16.91	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	12
- CA--> WC--> EL--> NC--> ST--> NNP--> IP 	16.59	 CA--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
- CA--> WC--> EL--> NC--> NNP--> IP--> ST 	16.59	 CA--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
- CA--> WC--> EL--> NC--> NNP--> ST--> IP 	16.59	 CA--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
  CA--> WC--> EL--> ST--> IP--> NC--> NNP 	15.76	 CA--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
  CA--> WC--> EL--> ST--> IP--> NNP--> NC 	15.76	 CA--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
  CA--> WC--> EL--> ST--> NC--> IP--> NNP 	15.76	 CA--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	12
+ CA--> IP--> NC--> ST--> WC--> NNP--> EL 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> EL 	12
+ CA--> IP--> NC--> NNP--> WC--> ST--> EL 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> EL 	12
+ CA--> IP--> ST--> WC--> NNP--> EL--> NC 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> EL 	12
+ CA--> IP--> NNP--> WC--> ST--> EL--> NC 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> EL 	12
+ CA--> NC--> IP--> ST--> WC--> NNP--> EL 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> EL 	12
+ CA--> NC--> IP--> NNP--> WC--> ST--> EL 	15.91	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> EL 	12
  CA--> ST--> IP--> NC--> WC--> NNP--> EL 	15.91	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	12
  CA--> ST--> IP--> NC--> NNP--> WC--> EL 	15.91	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	12
  CA--> ST--> IP--> NC--> NNP--> EL--> WC 	15.91	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	12
@@ -409,56 +427,46 @@ Sequence	Cost	Path	Hops
  CA--> ST--> WC--> NNP--> IP--> NC--> EL 	15.91	 CA--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	12
  CA--> ST--> WC--> NNP--> IP--> EL--> NC 	15.91	 CA--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	12
  CA--> ST--> WC--> NNP--> NC--> IP--> EL 	15.91	 CA--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	12
- CA--> ST--> NNP--> IP--> WC--> NC--> EL 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> EL 	12
- CA--> ST--> NNP--> IP--> EL--> NC--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
- CA--> ST--> NNP--> NC--> WC--> IP--> EL 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> EL 	12
- CA--> ST--> EL--> NNP--> IP--> NC--> WC 	15.96	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC 	12
  CA--> NNP--> IP--> NC--> WC--> ST--> EL 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
  CA--> NNP--> IP--> NC--> ST--> WC--> EL 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
  CA--> NNP--> IP--> NC--> ST--> EL--> WC 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
- CA--> NNP--> IP--> NC--> EL--> ST--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
- CA--> NNP--> IP--> WC--> NC--> EL--> ST 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> EL 	12
  CA--> NNP--> IP--> WC--> ST--> EL--> NC 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
- CA--> NNP--> IP--> WC--> EL--> NC--> ST 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
- CA--> NNP--> IP--> WC--> EL--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
  CA--> NNP--> IP--> ST--> WC--> EL--> NC 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
- CA--> NNP--> IP--> EL--> WC--> NC--> ST 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
- CA--> NNP--> IP--> EL--> WC--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
  CA--> NNP--> NC--> IP--> WC--> ST--> EL 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
  CA--> NNP--> NC--> IP--> ST--> WC--> EL 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
  CA--> NNP--> NC--> IP--> ST--> EL--> WC 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
- CA--> NNP--> NC--> IP--> EL--> ST--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
- CA--> NNP--> NC--> WC--> IP--> EL--> ST 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> EL 	12
  CA--> NNP--> WC--> IP--> NC--> ST--> EL 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
  CA--> NNP--> WC--> IP--> ST--> EL--> NC 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
- CA--> NNP--> WC--> IP--> EL--> NC--> ST 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
- CA--> NNP--> WC--> IP--> EL--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	12
  CA--> NNP--> WC--> NC--> IP--> ST--> EL 	15.91	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	12
  CA--> NNP--> WC--> ST--> IP--> NC--> EL 	15.91	 CA--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	12
  CA--> NNP--> WC--> ST--> IP--> EL--> NC 	15.91	 CA--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	12
  CA--> NNP--> WC--> ST--> NC--> IP--> EL 	15.91	 CA--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	12
- CA--> NNP--> WC--> EL--> IP--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
- CA--> NNP--> ST--> IP--> WC--> NC--> EL 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> EL 	12
- CA--> NNP--> ST--> IP--> EL--> NC--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	12
- CA--> NNP--> ST--> NC--> WC--> IP--> EL 	15.59	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> EL 	12
- CA--> NNP--> EL--> IP--> NC--> ST--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
- CA--> NNP--> EL--> IP--> WC--> NC--> ST 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> NC 	12
- CA--> NNP--> EL--> IP--> WC--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
- CA--> NNP--> EL--> NC--> IP--> ST--> WC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
- CA--> NNP--> EL--> WC--> IP--> ST--> NC 	15.64	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> ST--> EL--> NNP--> IP--> NC--> WC 	15.96	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC 	12
  CA--> NNP--> EL--> ST--> IP--> NC--> WC 	15.96	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC 	12
- CA--> EL--> IP--> WC--> NNP--> NC--> ST 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> EL--> IP--> ST--> NNP--> NC--> WC 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> EL--> IP--> NNP--> WC--> NC--> ST 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> EL--> IP--> NNP--> WC--> ST--> NC 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> ST 	12
- CA--> EL--> IP--> NNP--> ST--> NC--> WC 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> EL--> WC--> IP--> NNP--> NC--> ST 	15.64	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	12
- CA--> EL--> WC--> NNP--> IP--> ST--> NC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
- CA--> EL--> NNP--> IP--> NC--> ST--> WC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
- CA--> EL--> NNP--> IP--> WC--> NC--> ST 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> NC 	12
- CA--> EL--> NNP--> IP--> WC--> ST--> NC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
- CA--> EL--> NNP--> NC--> IP--> ST--> WC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
- CA--> EL--> NNP--> WC--> IP--> ST--> NC 	15.64	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	12
+ CA--> WC--> NC--> ST--> NNP--> EL--> IP 	16.59	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	12
+ CA--> WC--> NC--> NNP--> ST--> EL--> IP 	16.59	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	12
+ CA--> WC--> NC--> NNP--> EL--> IP--> ST 	16.59	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	12
+ CA--> WC--> NC--> EL--> ST--> NNP--> IP 	16.59	 CA--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
+ CA--> WC--> NC--> EL--> NNP--> IP--> ST 	16.59	 CA--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
+ CA--> WC--> NC--> EL--> NNP--> ST--> IP 	16.59	 CA--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
+ CA--> WC--> ST--> NNP--> NC--> EL--> IP 	16.59	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	12
+ CA--> WC--> NNP--> NC--> EL--> IP--> ST 	16.59	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	12
+ CA--> WC--> NNP--> ST--> NC--> EL--> IP 	16.59	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	12
+ CA--> WC--> EL--> NC--> ST--> NNP--> IP 	16.59	 CA--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
+ CA--> WC--> EL--> NC--> NNP--> IP--> ST 	16.59	 CA--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
+ CA--> WC--> EL--> NC--> NNP--> ST--> IP 	16.59	 CA--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
+ CA--> IP--> NNP--> NC--> EL--> WC--> ST 	16.6	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC 	13
+ CA--> IP--> NNP--> EL--> NC--> WC--> ST 	16.6	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC 	13
+ CA--> IP--> EL--> NC--> NNP--> WC--> ST 	16.6	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC 	13
+ CA--> IP--> EL--> NNP--> NC--> WC--> ST 	16.6	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC 	13
+ CA--> NC--> NNP--> IP--> EL--> WC--> ST 	16.6	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	13
+ CA--> NC--> NNP--> EL--> IP--> WC--> ST 	16.6	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	13
+ CA--> NC--> EL--> IP--> NNP--> WC--> ST 	16.6	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	13
+ CA--> NC--> EL--> NNP--> IP--> WC--> ST 	16.6	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	13
+ CA--> NNP--> IP--> EL--> NC--> WC--> ST 	16.6	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC 	13
+ CA--> NNP--> NC--> EL--> IP--> WC--> ST 	16.6	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	13
+ CA--> EL--> IP--> NNP--> NC--> WC--> ST 	16.6	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC 	13
+ CA--> EL--> NC--> NNP--> IP--> WC--> ST 	16.6	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	13
  CA--> IP--> WC--> NC--> ST--> EL--> NNP 	16.72	 CA--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	13
  CA--> IP--> WC--> ST--> NC--> EL--> NNP 	16.72	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP 	13
  CA--> IP--> WC--> ST--> EL--> NC--> NNP 	16.72	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
@@ -471,116 +479,126 @@ Sequence	Cost	Path	Hops
  CA--> IP--> ST--> EL--> NC--> WC--> NNP 	16.72	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
  CA--> IP--> ST--> EL--> NC--> NNP--> WC 	16.72	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
  CA--> IP--> ST--> EL--> WC--> NC--> NNP 	16.72	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> IP--> ST--> EL--> NNP--> WC--> NC 	16.92	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	13
- CA--> IP--> NNP--> NC--> EL--> WC--> ST 	16.6	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC 	13
- CA--> IP--> NNP--> EL--> NC--> WC--> ST 	16.6	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC 	13
- CA--> IP--> NNP--> EL--> ST--> WC--> NC 	16.92	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC 	13
  CA--> IP--> EL--> NC--> ST--> WC--> NNP 	16.72	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> ST--> NNP 	13
- CA--> IP--> EL--> NC--> NNP--> WC--> ST 	16.6	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC 	13
  CA--> IP--> EL--> WC--> ST--> NC--> NNP 	16.72	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
  CA--> IP--> EL--> ST--> NC--> WC--> NNP 	16.72	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
  CA--> IP--> EL--> ST--> NC--> NNP--> WC 	16.72	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
  CA--> IP--> EL--> ST--> WC--> NC--> NNP 	16.72	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> IP--> EL--> NNP--> NC--> WC--> ST 	16.6	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC 	13
  CA--> NC--> WC--> IP--> ST--> EL--> NNP 	16.72	 CA--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP 	13
  CA--> NC--> WC--> ST--> IP--> EL--> NNP 	16.72	 CA--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	13
  CA--> NC--> WC--> ST--> EL--> IP--> NNP 	16.72	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
- CA--> NC--> WC--> ST--> EL--> NNP--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> NC--> WC--> NNP--> EL--> ST--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
  CA--> NC--> WC--> EL--> ST--> IP--> NNP 	16.72	 CA--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> NC--> ST--> IP--> WC--> EL--> NNP 	16.72	 CA--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	13
  CA--> NC--> ST--> IP--> EL--> WC--> NNP 	16.72	 CA--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	13
  CA--> NC--> ST--> IP--> EL--> NNP--> WC 	16.72	 CA--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	13
  CA--> NC--> ST--> WC--> IP--> EL--> NNP 	16.72	 CA--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	13
- CA--> NC--> ST--> WC--> NNP--> EL--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	13
  CA--> NC--> ST--> WC--> EL--> IP--> NNP 	16.72	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
- CA--> NC--> ST--> WC--> EL--> NNP--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> NC--> ST--> EL--> IP--> WC--> NNP 	16.72	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> NC--> ST--> EL--> IP--> NNP--> WC 	16.72	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> NC--> ST--> EL--> WC--> IP--> NNP 	16.72	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
- CA--> NC--> ST--> EL--> WC--> NNP--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> NC--> ST--> EL--> NNP--> IP--> WC 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> NC--> ST--> EL--> NNP--> WC--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> NC--> NNP--> IP--> EL--> WC--> ST 	16.6	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC 	13
- CA--> NC--> NNP--> WC--> ST--> EL--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	13
- CA--> NC--> NNP--> WC--> EL--> ST--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
- CA--> NC--> NNP--> EL--> IP--> WC--> ST 	16.6	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	13
- CA--> NC--> NNP--> EL--> WC--> ST--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
- CA--> NC--> NNP--> EL--> ST--> IP--> WC 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
- CA--> NC--> NNP--> EL--> ST--> WC--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
  CA--> NC--> EL--> IP--> ST--> WC--> NNP 	16.72	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP 	13
- CA--> NC--> EL--> IP--> NNP--> WC--> ST 	16.6	 CA--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	13
  CA--> NC--> EL--> WC--> ST--> IP--> NNP 	16.72	 CA--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> NC--> EL--> ST--> IP--> WC--> NNP 	16.72	 CA--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> NC--> EL--> ST--> IP--> NNP--> WC 	16.72	 CA--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> NC--> EL--> ST--> WC--> IP--> NNP 	16.72	 CA--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
- CA--> NC--> EL--> ST--> WC--> NNP--> IP 	17.87	 CA--> NC--> WC--> EL--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> NC--> EL--> NNP--> IP--> WC--> ST 	16.6	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	13
- CA--> NC--> EL--> NNP--> WC--> ST--> IP 	17.87	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> IP 	13
+ CA--> ST--> IP--> WC--> NC--> EL--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> EL--> WC--> ST--> NNP 	13
+ CA--> ST--> IP--> WC--> EL--> NC--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> IP--> EL--> NC--> WC--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> IP--> EL--> NC--> NNP--> WC 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> IP--> EL--> WC--> NC--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> NC--> WC--> IP--> EL--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	13
+ CA--> ST--> NC--> WC--> EL--> IP--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> NC--> EL--> IP--> WC--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> NC--> EL--> IP--> NNP--> WC 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> NC--> EL--> WC--> IP--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> WC--> IP--> EL--> NC--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> WC--> NC--> EL--> IP--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> EL--> IP--> WC--> NC--> NNP 	16.72	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> ST--> EL--> NC--> WC--> IP--> NNP 	16.72	 CA--> ST--> WC--> EL--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> IP--> WC--> ST--> NC--> NNP 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> IP--> ST--> NC--> WC--> NNP 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> IP--> ST--> NC--> NNP--> WC 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> IP--> ST--> WC--> NC--> NNP 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> NC--> WC--> ST--> IP--> NNP 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> NC--> ST--> IP--> WC--> NNP 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> NC--> ST--> IP--> NNP--> WC 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> NC--> ST--> WC--> IP--> NNP 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> WC--> IP--> ST--> NC--> NNP 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> WC--> NC--> ST--> IP--> NNP 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> ST--> IP--> WC--> NC--> NNP 	16.72	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP 	13
+ CA--> EL--> ST--> NC--> WC--> IP--> NNP 	16.72	 CA--> EL--> WC--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
+ CA--> WC--> ST--> EL--> NNP--> IP--> NC 	16.91	 CA--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
+ CA--> WC--> ST--> EL--> NNP--> NC--> IP 	16.91	 CA--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	12
+ CA--> WC--> NNP--> EL--> ST--> IP--> NC 	16.91	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	12
+ CA--> WC--> NNP--> EL--> ST--> NC--> IP 	16.91	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	12
+ CA--> IP--> ST--> EL--> NNP--> WC--> NC 	16.92	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	13
+ CA--> IP--> NNP--> EL--> ST--> WC--> NC 	16.92	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC 	13
+ CA--> ST--> IP--> NNP--> EL--> WC--> NC 	16.92	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	13
+ CA--> ST--> IP--> EL--> NNP--> WC--> NC 	16.92	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	13
+ CA--> ST--> EL--> IP--> NNP--> WC--> NC 	16.92	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	13
+ CA--> ST--> EL--> NNP--> IP--> WC--> NC 	16.92	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	13
+ CA--> NNP--> IP--> ST--> EL--> WC--> NC 	16.92	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC 	13
+ CA--> NNP--> IP--> EL--> ST--> WC--> NC 	16.92	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC 	13
+ CA--> NNP--> EL--> IP--> ST--> WC--> NC 	16.92	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC 	13
+ CA--> NNP--> EL--> ST--> IP--> WC--> NC 	16.92	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC 	13
+ CA--> EL--> ST--> IP--> NNP--> WC--> NC 	16.92	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	13
+ CA--> EL--> NNP--> IP--> ST--> WC--> NC 	16.92	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC 	13
  CA--> WC--> IP--> ST--> NNP--> NC--> EL 	17.34	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	13
  CA--> WC--> IP--> NNP--> NC--> EL--> ST 	17.34	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	13
  CA--> WC--> IP--> NNP--> ST--> NC--> EL 	17.34	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	13
- CA--> WC--> IP--> NNP--> EL--> NC--> ST 	17.39	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	13
- CA--> WC--> IP--> NNP--> EL--> ST--> NC 	17.39	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	13
- CA--> WC--> IP--> EL--> NNP--> NC--> ST 	17.39	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	13
  CA--> WC--> NC--> ST--> NNP--> IP--> EL 	17.34	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	13
  CA--> WC--> NC--> NNP--> IP--> EL--> ST 	17.34	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	13
  CA--> WC--> NC--> NNP--> ST--> IP--> EL 	17.34	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	13
+ CA--> WC--> IP--> NNP--> EL--> NC--> ST 	17.39	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	13
+ CA--> WC--> IP--> NNP--> EL--> ST--> NC 	17.39	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST 	13
+ CA--> WC--> IP--> EL--> NNP--> NC--> ST 	17.39	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	13
+ CA--> WC--> NNP--> IP--> EL--> NC--> ST 	17.39	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	13
+ CA--> WC--> NNP--> IP--> EL--> ST--> NC 	17.39	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	13
+ CA--> WC--> NNP--> EL--> IP--> ST--> NC 	17.39	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	13
+ CA--> WC--> EL--> IP--> NNP--> NC--> ST 	17.39	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	13
+ CA--> WC--> EL--> NNP--> IP--> ST--> NC 	17.39	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	13
  CA--> WC--> ST--> IP--> NC--> NNP--> EL 	17.66	 CA--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	13
  CA--> WC--> ST--> IP--> NNP--> EL--> NC 	17.66	 CA--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	13
  CA--> WC--> ST--> NC--> IP--> NNP--> EL 	17.66	 CA--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	13
  CA--> WC--> NNP--> IP--> NC--> ST--> EL 	17.66	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	13
  CA--> WC--> NNP--> IP--> ST--> EL--> NC 	17.66	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	13
- CA--> WC--> NNP--> IP--> EL--> NC--> ST 	17.39	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC 	13
- CA--> WC--> NNP--> IP--> EL--> ST--> NC 	17.39	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	13
  CA--> WC--> NNP--> NC--> IP--> ST--> EL 	17.66	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	13
- CA--> WC--> NNP--> EL--> IP--> ST--> NC 	17.39	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	13
- CA--> WC--> EL--> IP--> NNP--> NC--> ST 	17.39	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	13
- CA--> WC--> EL--> NNP--> IP--> ST--> NC 	17.39	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	13
- CA--> ST--> IP--> WC--> NC--> EL--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> EL--> WC--> ST--> NNP 	13
- CA--> ST--> IP--> WC--> EL--> NC--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> ST--> IP--> NNP--> EL--> WC--> NC 	16.92	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC 	13
- CA--> ST--> IP--> EL--> NC--> WC--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> ST--> IP--> EL--> NC--> NNP--> WC 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> ST--> IP--> EL--> WC--> NC--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> ST--> IP--> EL--> NNP--> WC--> NC 	16.92	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC 	13
- CA--> ST--> NC--> WC--> IP--> EL--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	13
+ CA--> NC--> WC--> ST--> EL--> NNP--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> WC--> NNP--> EL--> ST--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> ST--> WC--> NNP--> EL--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	13
+ CA--> NC--> ST--> WC--> EL--> NNP--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> ST--> EL--> WC--> NNP--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> ST--> EL--> NNP--> IP--> WC 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> ST--> EL--> NNP--> WC--> IP 	17.87	 CA--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> NNP--> WC--> ST--> EL--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	13
+ CA--> NC--> NNP--> WC--> EL--> ST--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> NNP--> EL--> WC--> ST--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> NNP--> EL--> ST--> IP--> WC 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> NNP--> EL--> ST--> WC--> IP 	17.87	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> EL--> ST--> WC--> NNP--> IP 	17.87	 CA--> NC--> WC--> EL--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
+ CA--> NC--> EL--> NNP--> WC--> ST--> IP 	17.87	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> IP 	13
  CA--> ST--> NC--> WC--> NNP--> EL--> IP 	17.87	 CA--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	13
- CA--> ST--> NC--> WC--> EL--> IP--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> ST--> NC--> WC--> EL--> NNP--> IP 	17.87	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> ST--> NC--> NNP--> WC--> EL--> IP 	17.87	 CA--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	13
  CA--> ST--> NC--> NNP--> EL--> IP--> WC 	17.87	 CA--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	13
  CA--> ST--> NC--> NNP--> EL--> WC--> IP 	17.87	 CA--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	13
- CA--> ST--> NC--> EL--> IP--> WC--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
- CA--> ST--> NC--> EL--> IP--> NNP--> WC 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
- CA--> ST--> NC--> EL--> WC--> IP--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> ST--> NC--> EL--> WC--> NNP--> IP 	17.87	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> ST--> NC--> EL--> NNP--> IP--> WC 	17.87	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> ST--> NC--> EL--> NNP--> WC--> IP 	17.87	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> ST--> WC--> IP--> EL--> NC--> NNP 	16.72	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	13
  CA--> ST--> WC--> NC--> NNP--> EL--> IP 	17.87	 CA--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	13
- CA--> ST--> WC--> NC--> EL--> IP--> NNP 	16.72	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> ST--> WC--> NC--> EL--> NNP--> IP 	17.87	 CA--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> ST--> WC--> NNP--> NC--> EL--> IP 	17.87	 CA--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	13
  CA--> ST--> WC--> EL--> NC--> NNP--> IP 	17.87	 CA--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> ST--> EL--> IP--> WC--> NC--> NNP 	16.72	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> ST--> EL--> IP--> NNP--> WC--> NC 	16.92	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	13
- CA--> ST--> EL--> NC--> WC--> IP--> NNP 	16.72	 CA--> ST--> WC--> EL--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> ST--> EL--> NC--> WC--> NNP--> IP 	17.87	 CA--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> ST--> EL--> NC--> NNP--> IP--> WC 	17.87	 CA--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> ST--> EL--> NC--> NNP--> WC--> IP 	17.87	 CA--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> ST--> EL--> WC--> NC--> NNP--> IP 	17.87	 CA--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> ST--> EL--> NNP--> IP--> WC--> NC 	16.92	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	13
  CA--> ST--> EL--> NNP--> NC--> WC--> IP 	17.87	 CA--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP 	13
- CA--> NNP--> IP--> ST--> EL--> WC--> NC 	16.92	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC 	13
- CA--> NNP--> IP--> EL--> NC--> WC--> ST 	16.6	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC 	13
- CA--> NNP--> IP--> EL--> ST--> WC--> NC 	16.92	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC 	13
  CA--> NNP--> NC--> WC--> ST--> EL--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	13
  CA--> NNP--> NC--> WC--> EL--> ST--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
  CA--> NNP--> NC--> ST--> WC--> EL--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	13
  CA--> NNP--> NC--> ST--> EL--> IP--> WC 	17.87	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	13
  CA--> NNP--> NC--> ST--> EL--> WC--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	13
- CA--> NNP--> NC--> EL--> IP--> WC--> ST 	16.6	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC 	13
  CA--> NNP--> NC--> EL--> WC--> ST--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
  CA--> NNP--> NC--> EL--> ST--> IP--> WC 	17.87	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
  CA--> NNP--> NC--> EL--> ST--> WC--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
@@ -588,41 +606,43 @@ Sequence	Cost	Path	Hops
  CA--> NNP--> WC--> NC--> EL--> ST--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	13
  CA--> NNP--> WC--> ST--> NC--> EL--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP 	13
  CA--> NNP--> WC--> EL--> NC--> ST--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
- CA--> NNP--> EL--> IP--> ST--> WC--> NC 	16.92	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC 	13
  CA--> NNP--> EL--> NC--> WC--> ST--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
  CA--> NNP--> EL--> NC--> ST--> IP--> WC 	17.87	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
  CA--> NNP--> EL--> NC--> ST--> WC--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
  CA--> NNP--> EL--> WC--> NC--> ST--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
- CA--> NNP--> EL--> ST--> IP--> WC--> NC 	16.92	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC 	13
  CA--> NNP--> EL--> ST--> NC--> WC--> IP 	17.87	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> WC--> NC--> IP 	13
- CA--> EL--> IP--> WC--> ST--> NC--> NNP 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> EL--> IP--> ST--> NC--> WC--> NNP 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> EL--> IP--> ST--> NC--> NNP--> WC 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> EL--> IP--> ST--> WC--> NC--> NNP 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> EL--> IP--> NNP--> NC--> WC--> ST 	16.6	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC 	13
- CA--> EL--> NC--> WC--> ST--> IP--> NNP 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
- CA--> EL--> NC--> ST--> IP--> WC--> NNP 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
- CA--> EL--> NC--> ST--> IP--> NNP--> WC 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
- CA--> EL--> NC--> ST--> WC--> IP--> NNP 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> EL--> NC--> ST--> WC--> NNP--> IP 	17.87	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> EL--> NC--> NNP--> IP--> WC--> ST 	16.6	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC 	13
  CA--> EL--> NC--> NNP--> WC--> ST--> IP 	17.87	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> IP 	13
- CA--> EL--> WC--> IP--> ST--> NC--> NNP 	16.72	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> EL--> WC--> NC--> ST--> IP--> NNP 	16.72	 CA--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> EL--> WC--> ST--> NC--> NNP--> IP 	17.87	 CA--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> EL--> WC--> NNP--> NC--> ST--> IP 	17.87	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
- CA--> EL--> ST--> IP--> WC--> NC--> NNP 	16.72	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP 	13
- CA--> EL--> ST--> IP--> NNP--> WC--> NC 	16.92	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC 	13
- CA--> EL--> ST--> NC--> WC--> IP--> NNP 	16.72	 CA--> EL--> WC--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	13
  CA--> EL--> ST--> NC--> WC--> NNP--> IP 	17.87	 CA--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> EL--> ST--> NC--> NNP--> IP--> WC 	17.87	 CA--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> EL--> ST--> NC--> NNP--> WC--> IP 	17.87	 CA--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
  CA--> EL--> ST--> WC--> NC--> NNP--> IP 	17.87	 CA--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	13
- CA--> EL--> NNP--> IP--> ST--> WC--> NC 	16.92	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC 	13
  CA--> EL--> NNP--> NC--> WC--> ST--> IP 	17.87	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
  CA--> EL--> NNP--> NC--> ST--> IP--> WC 	17.87	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
  CA--> EL--> NNP--> NC--> ST--> WC--> IP 	17.87	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
  CA--> EL--> NNP--> WC--> NC--> ST--> IP 	17.87	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	13
+ CA--> IP--> NNP--> NC--> EL--> ST--> WC 	18.35	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> ST 	14
+ CA--> IP--> NNP--> EL--> NC--> ST--> WC 	18.35	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> ST 	14
+ CA--> IP--> EL--> NNP--> NC--> ST--> WC 	18.35	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST 	14
+ CA--> NC--> NNP--> IP--> EL--> ST--> WC 	18.35	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	14
+ CA--> NC--> NNP--> EL--> IP--> ST--> WC 	18.35	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	14
+ CA--> NC--> EL--> NNP--> IP--> ST--> WC 	18.35	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	14
+ CA--> NNP--> IP--> EL--> NC--> ST--> WC 	18.35	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST 	14
+ CA--> NNP--> NC--> EL--> IP--> ST--> WC 	18.35	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	14
+ CA--> EL--> IP--> NNP--> NC--> ST--> WC 	18.35	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST 	14
+ CA--> EL--> NC--> NNP--> IP--> ST--> WC 	18.35	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	14
+ CA--> WC--> IP--> ST--> NC--> EL--> NNP 	18.47	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP 	14
+ CA--> WC--> IP--> ST--> EL--> NC--> NNP 	18.47	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	14
+ CA--> WC--> IP--> EL--> ST--> NC--> NNP 	18.47	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	14
+ CA--> WC--> NC--> ST--> IP--> EL--> NNP 	18.47	 CA--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	14
+ CA--> WC--> NC--> ST--> EL--> IP--> NNP 	18.47	 CA--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	14
+ CA--> WC--> NC--> EL--> ST--> IP--> NNP 	18.47	 CA--> WC--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	14
+ CA--> WC--> ST--> IP--> EL--> NC--> NNP 	18.47	 CA--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	14
+ CA--> WC--> ST--> NC--> EL--> IP--> NNP 	18.47	 CA--> WC--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	14
+ CA--> WC--> EL--> IP--> ST--> NC--> NNP 	18.47	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	14
+ CA--> WC--> EL--> NC--> ST--> IP--> NNP 	18.47	 CA--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	14
  CA--> IP--> WC--> ST--> NC--> NNP--> EL 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	14
  CA--> IP--> WC--> NNP--> NC--> ST--> EL 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL 	14
  CA--> IP--> ST--> NC--> WC--> NNP--> EL 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	14
@@ -630,16 +650,11 @@ Sequence	Cost	Path	Hops
  CA--> IP--> ST--> NC--> NNP--> EL--> WC 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	14
  CA--> IP--> ST--> WC--> NC--> NNP--> EL 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	14
  CA--> IP--> ST--> WC--> NNP--> NC--> EL 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	14
- CA--> IP--> ST--> EL--> NNP--> NC--> WC 	18.67	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	14
  CA--> IP--> NNP--> NC--> WC--> ST--> EL 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL 	14
  CA--> IP--> NNP--> NC--> ST--> WC--> EL 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL 	14
  CA--> IP--> NNP--> NC--> ST--> EL--> WC 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL 	14
- CA--> IP--> NNP--> NC--> EL--> ST--> WC 	18.35	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> ST 	14
  CA--> IP--> NNP--> WC--> NC--> ST--> EL 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL 	14
  CA--> IP--> NNP--> WC--> ST--> NC--> EL 	18.62	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> WC--> EL 	14
- CA--> IP--> NNP--> EL--> NC--> ST--> WC 	18.35	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> ST 	14
- CA--> IP--> NNP--> EL--> ST--> NC--> WC 	18.67	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC 	14
- CA--> IP--> EL--> NNP--> NC--> ST--> WC 	18.35	 CA--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST 	14
  CA--> NC--> WC--> ST--> IP--> NNP--> EL 	18.62	 CA--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	14
  CA--> NC--> WC--> NNP--> IP--> ST--> EL 	18.62	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	14
  CA--> NC--> ST--> IP--> WC--> NNP--> EL 	18.62	 CA--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	14
@@ -650,38 +665,13 @@ Sequence	Cost	Path	Hops
  CA--> NC--> NNP--> IP--> WC--> ST--> EL 	18.62	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	14
  CA--> NC--> NNP--> IP--> ST--> WC--> EL 	18.62	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	14
  CA--> NC--> NNP--> IP--> ST--> EL--> WC 	18.62	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	14
- CA--> NC--> NNP--> IP--> EL--> ST--> WC 	18.35	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST 	14
  CA--> NC--> NNP--> WC--> IP--> ST--> EL 	18.62	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	14
  CA--> NC--> NNP--> WC--> ST--> IP--> EL 	18.62	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
- CA--> NC--> NNP--> EL--> IP--> ST--> WC 	18.35	 CA--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	14
- CA--> NC--> EL--> NNP--> IP--> ST--> WC 	18.35	 CA--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	14
- CA--> WC--> IP--> ST--> NC--> EL--> NNP 	18.47	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP 	14
- CA--> WC--> IP--> ST--> EL--> NC--> NNP 	18.47	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	14
- CA--> WC--> IP--> EL--> ST--> NC--> NNP 	18.47	 CA--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	14
- CA--> WC--> NC--> ST--> IP--> EL--> NNP 	18.47	 CA--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP 	14
- CA--> WC--> NC--> ST--> EL--> IP--> NNP 	18.47	 CA--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	14
- CA--> WC--> NC--> ST--> EL--> NNP--> IP 	19.62	 CA--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	14
- CA--> WC--> NC--> NNP--> EL--> ST--> IP 	19.62	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	14
- CA--> WC--> NC--> EL--> ST--> IP--> NNP 	18.47	 CA--> WC--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	14
- CA--> WC--> ST--> IP--> EL--> NC--> NNP 	18.47	 CA--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST--> NNP 	14
- CA--> WC--> ST--> NC--> NNP--> EL--> IP 	19.62	 CA--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	14
- CA--> WC--> ST--> NC--> EL--> IP--> NNP 	18.47	 CA--> WC--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	14
- CA--> WC--> ST--> NC--> EL--> NNP--> IP 	19.62	 CA--> WC--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	14
- CA--> WC--> ST--> EL--> NC--> NNP--> IP 	19.62	 CA--> WC--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	14
- CA--> WC--> NNP--> NC--> ST--> EL--> IP 	19.62	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	14
- CA--> WC--> NNP--> NC--> EL--> ST--> IP 	19.62	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	14
- CA--> WC--> NNP--> EL--> NC--> ST--> IP 	19.62	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	14
- CA--> WC--> EL--> IP--> ST--> NC--> NNP 	18.47	 CA--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP 	14
- CA--> WC--> EL--> NC--> ST--> IP--> NNP 	18.47	 CA--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP 	14
- CA--> WC--> EL--> ST--> NC--> NNP--> IP 	19.62	 CA--> WC--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	14
- CA--> WC--> EL--> NNP--> NC--> ST--> IP 	19.62	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	14
  CA--> ST--> IP--> WC--> NC--> NNP--> EL 	18.62	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	14
  CA--> ST--> IP--> WC--> NNP--> NC--> EL 	18.62	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	14
  CA--> ST--> IP--> NNP--> NC--> WC--> EL 	18.62	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	14
  CA--> ST--> IP--> NNP--> NC--> EL--> WC 	18.62	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	14
  CA--> ST--> IP--> NNP--> WC--> NC--> EL 	18.62	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	14
- CA--> ST--> IP--> NNP--> EL--> NC--> WC 	18.67	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	14
- CA--> ST--> IP--> EL--> NNP--> NC--> WC 	18.67	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	14
  CA--> ST--> NC--> WC--> IP--> NNP--> EL 	18.62	 CA--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	14
  CA--> ST--> NC--> WC--> NNP--> IP--> EL 	18.62	 CA--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
  CA--> ST--> NC--> NNP--> IP--> WC--> EL 	18.62	 CA--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
@@ -689,28 +679,38 @@ Sequence	Cost	Path	Hops
  CA--> ST--> NC--> NNP--> WC--> IP--> EL 	18.62	 CA--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
  CA--> ST--> WC--> IP--> NNP--> NC--> EL 	18.62	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL 	14
  CA--> ST--> WC--> NC--> NNP--> IP--> EL 	18.62	 CA--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
- CA--> ST--> EL--> IP--> NNP--> NC--> WC 	18.67	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	14
  CA--> NNP--> IP--> WC--> NC--> ST--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> NC--> WC--> ST--> WC--> EL 	14
  CA--> NNP--> IP--> WC--> ST--> NC--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> EL 	14
  CA--> NNP--> IP--> ST--> NC--> WC--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> EL 	14
  CA--> NNP--> IP--> ST--> NC--> EL--> WC 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> EL 	14
  CA--> NNP--> IP--> ST--> WC--> NC--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> EL 	14
- CA--> NNP--> IP--> ST--> EL--> NC--> WC 	18.67	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> NC 	14
- CA--> NNP--> IP--> EL--> NC--> ST--> WC 	18.35	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> NC--> WC--> ST 	14
- CA--> NNP--> IP--> EL--> ST--> NC--> WC 	18.67	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> NC 	14
  CA--> NNP--> NC--> WC--> IP--> ST--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL 	14
  CA--> NNP--> NC--> WC--> ST--> IP--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
  CA--> NNP--> NC--> ST--> IP--> WC--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
  CA--> NNP--> NC--> ST--> IP--> EL--> WC 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
  CA--> NNP--> NC--> ST--> WC--> IP--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
- CA--> NNP--> NC--> EL--> IP--> ST--> WC 	18.35	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST 	14
  CA--> NNP--> WC--> IP--> ST--> NC--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> EL 	14
  CA--> NNP--> WC--> NC--> ST--> IP--> EL 	18.62	 CA--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> EL 	14
+ CA--> IP--> ST--> EL--> NNP--> NC--> WC 	18.67	 CA--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	14
+ CA--> IP--> NNP--> EL--> ST--> NC--> WC 	18.67	 CA--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC 	14
+ CA--> ST--> IP--> NNP--> EL--> NC--> WC 	18.67	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC 	14
+ CA--> ST--> IP--> EL--> NNP--> NC--> WC 	18.67	 CA--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC 	14
+ CA--> ST--> EL--> IP--> NNP--> NC--> WC 	18.67	 CA--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	14
+ CA--> NNP--> IP--> ST--> EL--> NC--> WC 	18.67	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> EL--> WC--> NC 	14
+ CA--> NNP--> IP--> EL--> ST--> NC--> WC 	18.67	 CA--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> EL--> WC--> ST--> WC--> NC 	14
  CA--> NNP--> EL--> IP--> ST--> NC--> WC 	18.67	 CA--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC 	14
- CA--> EL--> IP--> NNP--> NC--> ST--> WC 	18.35	 CA--> EL--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST 	14
- CA--> EL--> NC--> NNP--> IP--> ST--> WC 	18.35	 CA--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST 	14
  CA--> EL--> ST--> IP--> NNP--> NC--> WC 	18.67	 CA--> EL--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC 	14
  CA--> EL--> NNP--> IP--> ST--> NC--> WC 	18.67	 CA--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC 	14
+ CA--> WC--> NC--> ST--> EL--> NNP--> IP 	19.62	 CA--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	14
+ CA--> WC--> NC--> NNP--> EL--> ST--> IP 	19.62	 CA--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	14
+ CA--> WC--> ST--> NC--> NNP--> EL--> IP 	19.62	 CA--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> IP 	14
+ CA--> WC--> ST--> NC--> EL--> NNP--> IP 	19.62	 CA--> WC--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	14
+ CA--> WC--> ST--> EL--> NC--> NNP--> IP 	19.62	 CA--> WC--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	14
+ CA--> WC--> NNP--> NC--> ST--> EL--> IP 	19.62	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL--> WC--> NC--> IP 	14
+ CA--> WC--> NNP--> NC--> EL--> ST--> IP 	19.62	 CA--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> EL--> WC--> ST--> WC--> NC--> IP 	14
+ CA--> WC--> NNP--> EL--> NC--> ST--> IP 	19.62	 CA--> WC--> ST--> NNP--> ST--> WC--> EL--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	14
+ CA--> WC--> EL--> ST--> NC--> NNP--> IP 	19.62	 CA--> WC--> EL--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> IP 	14
+ CA--> WC--> EL--> NNP--> NC--> ST--> IP 	19.62	 CA--> WC--> EL--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> NC--> IP 	14
  CA--> WC--> IP--> ST--> NC--> NNP--> EL 	20.37	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> WC--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	15
  CA--> WC--> IP--> NNP--> NC--> ST--> EL 	20.37	 CA--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> NC--> WC--> ST--> WC--> EL 	15
  CA--> WC--> NC--> ST--> IP--> NNP--> EL 	20.37	 CA--> WC--> NC--> WC--> ST--> WC--> NC--> IP--> NC--> WC--> ST--> NNP--> ST--> WC--> EL 	15
