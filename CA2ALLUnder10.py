@@ -59,7 +59,15 @@ graph = {
     'NNP':[('ST',1.63)],
     'EL': [('WC',1.01),('CA',1.01)]
 }
-
+graphweights = {
+    'CA':2.47,
+    'IP':0.8,
+    'NC':0.96,
+    'WC':1.75,
+    'ST':1.28,
+    'NNP':1.63,
+    'EL':1.01
+    }
 places = {node: [] for node in graph}
 iterplaces = [node for node in graph]
 for source in graph:
@@ -113,7 +121,12 @@ for i in allsequence:
                 copyroute.append(j)
    
     copyroute = [copyroute[0]] + [b for a, b in zip(copyroute, copyroute[1:]) if a != b]
-    
+    x = 0
+    weight = 0
+    for q in copyroute:
+        x = x+1
+        if x != len(copyroute):
+            weight = weight + graphweights[q]
             
     countNodes = len(copyroute)
     dataFile.write(f"Sequence # {'-> '.join(i)} #cost # {round(weight,2)} # with path# {'-> '.join(dupremover(copyroute))} # with hops # {countNodes} \n")
