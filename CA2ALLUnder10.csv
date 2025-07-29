@@ -1,5 +1,4 @@
-		
-	Sequence	                          Cost	  Path	                                       Hops		
+ Sequence	                        Cost	  Path	                                       Hops		
  CA-> IP-> NC-> WC-> EL-> ST-> NNP 	10.98	 CA-> NC-> IP-> NC-> WC-> EL-> WC-> ST-> NNP 	9					
  CA-> IP-> NC-> WC-> EL-> NNP-> ST 	10.98	 CA-> NC-> IP-> NC-> WC-> EL-> WC-> ST-> NNP 	9					
  CA-> IP-> NC-> EL-> WC-> ST-> NNP 	10.98	 CA-> NC-> IP-> NC-> WC-> EL-> WC-> ST-> NNP 	9					
