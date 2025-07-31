@@ -1,6 +1,16 @@
 import itertools
 import copy
-
+def dupremover(list):
+    list.reverse()
+    lelist = list.copy()
+    for i in list:
+        if i in lelist[1:]:
+            ind = lelist.index(i)
+            del lelist [ind]
+        else:
+            break
+    lelist.reverse()
+    return lelist
 start = input('Starting Station: ')
 def djikistri(startStation, graph):
     weights = {node: float('inf') for node in graph}
@@ -40,7 +50,15 @@ def djikistri(startStation, graph):
             route[node] = tempPath
 
     return weights, route
-
+graphweights = {
+    'CA':2.47,
+    'IP':0.8,
+    'NC':0.96,
+    'WC':1.75,
+    'ST':1.28,
+    'NNP':1.63,
+    'EL':1.01
+    }
 graph = {
     'CA':[('WC', 2.47),('EL',2.47),('NC',2.47),('ST',2.47)],
     'IP':[('NC',0.8)],
@@ -141,9 +159,14 @@ for o in notGraph:
                 
                 #below code removes duplicates
                 copyroute = [copyroute[0]] + [b for a, b in zip(copyroute, copyroute[1:]) if a != b]
-
+                x = 0
+                weight = 0
+                for q in copyroute:
+                    x = x+1
+                    if x != len(copyroute):
+                        weight = weight + graphweights[q]
                 countNodes = len(copyroute)
-                dataFile.write(f"{'-> '.join(i)} # {round(weight,2)} #  {'-> '.join(copyroute)} # {countNodes} #  {o} and {z[0]}\n")
+                dataFile.write(f"{'-> '.join(i)} # {round(weight,2)} #  {'-> '.join(dupremover(copyroute))} # {countNodes} #  {o} and {z[0]}\n")
                 #print(f"Path {i} cost {round(weight,2)}")
 
 dataFile.close()
